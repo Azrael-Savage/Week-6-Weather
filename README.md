@@ -1,16 +1,26 @@
-# Week-6-Weather
-Weather Dashboard
+# Weather Api
 
-AS A traveler
-I WANT to see the weather outlook for multiple cities
-SO THAT I can plan a trip accordingly
+## Description
+Displays the weather 1 day and 5 days
 
-GIVEN a weather dashboard with form inputs
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
+## Table of Contents
+- [Installation](#installation)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+Click on git page page link
+
+
+
+
+## License
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+This project is covered under the MIT license.
+
+
+## Questions
+For additional questions, you can reach me on GitHub at [Azrael-Savage](https://github.com/Azrael-Savage)
+or via email at thewisegoddessathena@gmail.com.
