@@ -16,7 +16,22 @@ header {
     height: 75px;
     color: white;
 
+
 }
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #A7C7E7;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #1F2D3D;
+}
+
 
 
 .card {
@@ -43,3 +58,95 @@ header {
     padding: 6px;
 
 }
+body {
+  background: linear-gradient(to bottom, #E7F3FF, #FFFFFF);
+}
+
+.form-container {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #A7C7E7;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #A7C7E7;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1F2D3D;
+  color: #FFFFFF;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2F3E4E;
+}
+
+
+.weather-container {
+  margin: 30px auto;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #A7C7E7;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #1F2D3D;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2D3D;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #1F2D3D;
+  margin-bottom: 20px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.alert {
+  background-color: #E54B4B;
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #1F2D3D;
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+
