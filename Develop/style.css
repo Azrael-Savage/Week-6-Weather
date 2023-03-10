@@ -1,0 +1,45 @@
+#current-weather{
+font-size: large;
+    color: black;
+    margin: auto;
+    border: 5px double #32a1ce;
+    border-radius: 15px;
+    padding: 6px;
+
+}
+
+
+header {
+    margin: auto;
+    text-align:center;
+    background-color: darkblue;
+    height: 75px;
+    color: white;
+
+}
+
+
+.card {
+    border: 1 1 solid black;
+}
+
+.forecast-card {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#daily-card {
+    text-align: center;
+    border: 5px double #32a1ce;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+#forecast {
+    margin: auto;
+    border: 5px double #32a1ce;
+    border-radius: 15px;
+    padding: 6px;
+
+}
